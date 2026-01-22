@@ -13,9 +13,9 @@ body {
     padding: 0 20px;
 }
 
-/* Topo Azul */
+/* Topo Vermelho */
 .topo-azul {
-    background-color: #003366; /* Azul escuro oficial */
+    background-color: #ff3508; /* Azul escuro oficial */
     color: white;
     padding-top: 20px;
 }
@@ -28,7 +28,7 @@ body {
 
 /* Menu de Navegação */
 .menu-navegacao {
-    background-color: #004a99; /* Azul um pouco mais claro */
+    background-color: #ff0909; /* Azul um pouco mais claro */
     padding: 10px 0;
 }
 
@@ -62,8 +62,8 @@ body {
 }
 
 .artigo-principal h2 {
-    color: #003366;
-    border-bottom: 2px solid #003366;
+    color: #01034b;
+    border-bottom: 2px solid #661800;
     padding-bottom: 10px;
 }
 
