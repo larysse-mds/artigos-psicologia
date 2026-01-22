@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ebee; /* Fundo cinza claro igual ao site de referência */
+    color: #333;
+}
+
+/* Container para centralizar o conteúdo no meio da tela */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Topo Azul */
+.topo-azul {
+    background-color: #003366; /* Azul escuro oficial */
+    color: white;
+    padding-top: 20px;
+}
+
+.topo-azul h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Menu de Navegação */
+.menu-navegacao {
+    background-color: #004a99; /* Azul um pouco mais claro */
+    padding: 10px 0;
+}
+
+.menu-navegacao a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu-navegacao a:hover {
+    text-decoration: underline;
+}
+
+/* Layout de Duas Colunas */
+.layout-corpo {
+    display: flex; /* Mágica que coloca as colunas lado a lado */
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Coluna do Texto (75% de largura) */
+.artigo-principal {
+    flex: 3;
+    padding-right: 30px;
+    line-height: 1.8;
+}
+
+.artigo-principal h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+}
+
+/* Barra Lateral (25% de largura) */
+.barra-lateral {
+    flex: 1;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+
+.lista-idiomas {
+    list-style: none;
+    padding: 0;
+    display: flex
+    gap: 15px;
+}
+
+.lista-idiomas {
+    color: #004a99;
+    text-decoration: none;
+}
+
+/* Botão de Envio */
+.botao-submissao {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao-submissao:hover {
+    background-color: #ddd;
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #666;
+}
+/* Estilo da Seção Sobre a Autora */
+.sobre-autora {
+    text-align: center; /* Centraliza o texto e a foto */
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 120px;       /* Tamanho da foto */
+    height: 120px;
+    border-radius: 50%; /* Faz a foto ficar redondinha */
+    object-fit: cover;  /* Não deixa a foto esticar */
+    border: 3px solid #003366; /* Borda azul igual ao topo */
+    margin-bottom: 10px;
+}
+
+.sobre-autora h3 {
+    margin: 10px 0 5px 0;
+    color: #003366;
+    font-size: 18px;
+}
+
+.sobre-autora p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+.link-instagram {
+    display: inline-block;
+    margin-top: 10px;
+    color: #E1306C !important; /* Cor oficial do Instagram */
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.link-instagram:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
